@@ -9,7 +9,7 @@ cd $(dirname $0)
 
 #	--mirostat 2 \
 
-./main -m ./models/dolphin-2.1-mistral-7b.Q4_K_M.gguf -c 512 -b 1024 -n 1024 --keep 48 \
+./main -m ./models/dolphin-2.?-mistral-7b.Q4_K_M.gguf -c 512 -b 1024 -n 1024 --keep 48 \
     --repeat_penalty 1.0 --color -i \
     -r "User:" -f prompts/chat-with-bob.txt
 
