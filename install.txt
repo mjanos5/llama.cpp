@@ -1,4 +1,4 @@
-Models:
+Language models:
 
 https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGUF
 https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGUF/blob/main/Wizard-Vicuna-7B-Uncensored.Q4_K_M.gguf
