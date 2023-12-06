@@ -9,7 +9,7 @@ cd $(dirname $0)
 
 #	--mirostat 2 \
 
-./main -m models/Wizard-Vicuna-7B-Uncensored.Q4_K_M.gguf -c 512 -b 1024 -n 1024 --keep 48 \
+llama-cpp-main -m ~/ai/models/Wizard-Vicuna-7B-Uncensored.Q4_K_M.gguf -c 512 -b 1024 -n 1024 --keep 48 \
     --repeat_penalty 1.0 --color -i \
-    -r "User:" -f prompts/chat-with-bob.txt
+    -r "User:" -f ~/ai/prompts/chat-with-bob.txt
 
